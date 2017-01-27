@@ -1,0 +1,202 @@
+/* FULL SCREEN */
+.mt-fs-1
+{
+width: 100%;
+height: 100%;
+position: absolute;
+background-repeat: no-repeat;
+background-position: 50% 0;
+background-size: cover;
+}
+
+.mt-fs-2
+{
+width: 80%;
+height: 5%;
+top: 7%;
+left: 10%;
+position: absolute;
+background-repeat: no-repeat;
+background-position: 50% 50%;
+background-size: contain;
+z-index: 200;
+}
+
+.mt-fs-button
+{
+width: 80%;
+height: 7%;
+top: 85%;
+left: 10%;
+position: absolute;
+background-repeat: no-repeat;
+background-position: 50% 50%;
+background-size: contain;
+z-index: 200;
+}
+
+.mt-fs-vblock
+{
+position: absolute;
+z-index: 1000;
+width: 80%;
+height: 55%;
+top: 20%;
+left: 10%;
+right: 10%;
+cursor: pointer;
+}
+
+.mt-fs-vc
+{
+height: 100%;
+width: 100%;
+position: absolute;
+left:50%;
+}
+
+.mt-fs-video
+{
+width: 100%;
+height: 100%;
+z-index: 500;
+}
+
+.mt-fs-play
+{
+position: absolute;
+width: 100%;
+height: 90%;
+background-repeat: no-repeat;
+background-position: 50% 50%;
+background-size: contain;
+cursor: pointer;
+opacity: 0.5;
+z-index: 10000;
+}
+
+
+.mt-fs-mute { 
+display: block;
+position: absolute;
+width: 10%;
+height: 8%;
+background-repeat: no-repeat;
+background-position: 98% 50%;
+background-size: contain;
+cursor: pointer;
+z-index: 10001;
+right: 0;
+top: 0;
+}
+
+.mt-fs-msg { 
+display: block;
+position: absolute;
+width: 90%;
+height: 7%;
+z-index: 10000;
+left: 2%;
+top: 2%;
+font: 110% Verdana;
+color: #fff;
+opacity: 0.9;
+}
+
+.mt-fs-click
+{
+position: absolute;
+width: 100%;
+height: 100%;
+cursor: pointer;
+z-index: 10000;
+}
+
+.mt-fs-click-2
+{
+position: absolute;
+width: 100%;
+height: 100%;
+cursor: pointer;
+z-index: 10001;
+}
+
+.mt-fs-close { 
+position: absolute;
+width: 10%;
+height: 10%;
+right: 2%;
+top: 2%;
+display: block;
+background-repeat: no-repeat;
+background-position: 100% 0;
+background-size: contain;
+cursor: pointer;
+z-index: 100000;
+}
+
+
+@media screen and (orientation:landscape) { 
+
+}
+
+
+@media screen and (orientation:landscape) and (max-width:480px) {
+
+
+}
+
+@media screen and (orientation:landscape) and (min-width:598px)  and (max-width:600px) {
+
+}
+
+
+@media screen and (orientation:landscape) and (min-width:799px) and (max-width:801px) {
+
+}
+
+@media screen and (orientation:landscape) and (min-width:900px) and (max-width:1024px) {
+/* iPad */
+
+}
+
+@media screen and (orientation:landscape) and (max-height:300px) {
+
+}
+
+@media screen and (orientation:portrait) and (max-width:420px) {
+
+}
+
+@media screen and (orientation:portrait) and (min-width:401px)  and (max-width:600px) {
+
+}
+
+
+@media screen and (orientation:portrait) and (min-width:601px) and (max-width:800px) {
+
+}
+
+@media screen and (orientation:portrait) and (min-width:801px) and (max-width:1024px) {
+
+}
+
+
+@media screen and (orientation:portrait) {
+/* Vertical */
+.mt-fs-vblock
+{
+width: 100%;
+height: 33%;
+top: 33%;
+left: 0;
+right: 0;
+position: absolute;
+z-index: 1000;
+
+}
+
+}
+
+
+/* END FULLSCREEN */
